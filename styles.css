@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    background-color: #3F51B5;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+header {
+    background-color: #3F51B5;
+    width: 100%;
+    padding: 25px 0 25px 0;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 10px;
+    font-weight: 100;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #3F51B5;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;  
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+br {
+    display: block;
+    margin: 20px 0;
+    content: "";
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.logo {
+    max-height: 30px;
+    margin: 10px auto 20px auto;
+    display: block;
+}
+
+.card {
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+    margin: 50px;
+    padding: 30px;
+  }
+  
+.card-1 {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1), 0 10px 40px rgba(0,0,0,0.1);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.button-outline {
+    margin: auto;
+    border-radius: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3f51b5;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    color: #3f51b5;
+    background-color: transparent;
+}
+
+.padding-sides{
+    padding: 0 80px;
+}
+
+.section {
+    padding: 50px;
+    color: black;
+}
+
+@media(max-width:2000px) {
+    h1 {
+        font-size: 7em;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 3em;
+        color: white;
+    }
+    
+    h3 {
+        font-size: 2em;
+    }
+}
+
+@media(max-width:1000px) {
+    h1 {
+        font-size: 5em;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 2em;
+        color: white;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .padding-sides{
+        padding: 0 50px;
+    }
+}
+
+@media(max-width:750px) {
+    h1 {
+        font-size: 4em;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 2em;
+        color: white;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        margin: 50px 20px 50px 20px;
+    }
+
+    .padding-sides{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:640px) {
+    h1 {
+        font-size: 3.5em;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+        color: white;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .card {
+        margin: 50px 0 50px 0;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .hide {
+        display: none;
+    }
+}
+
+.menu {
+    padding: 0 10px 0 10px;
+    text-transform: uppercase;
+}
+
+.intro {
+    padding: 150px 50px 150px 50px;
+}
+
+.lightgreyBG {
+    background-color: #F6F6F6;
+}
+
+.whiteBG {
+    background-color: white;
+}
+
+.cyanBG {
+    background-color: #00b8d4;
+}
+
+.title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3F51B5;
+}
+
+.contact {
+    font-size: 1.2em;
+    line-height: 2.5;
+    text-align: left;
+    display: inline-block;
+}
+
+.principles {
+    font-size: 1em;
+    text-align: left;
+    display: inline-block;
+}
+
+footer {
+    padding: 25px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.rightText {
+    text-align: right;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.padding-right20 {
+    padding-right: 20px;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.link {
+    text-decoration: underline !important;
+    font-weight: bold;
+}
